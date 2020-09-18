@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE5627C25133B1B00AA0FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5627B25133B1B00AA0FE8 /* AppDelegate.m */; };
+		EEE5627F25133B1B00AA0FE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5627E25133B1B00AA0FE8 /* SceneDelegate.m */; };
+		EEE5628225133B1B00AA0FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5628125133B1B00AA0FE8 /* ViewController.m */; };
+		EEE5628525133B1B00AA0FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE5628325133B1B00AA0FE8 /* Main.storyboard */; };
+		EEE5628725133B1C00AA0FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE5628625133B1C00AA0FE8 /* Assets.xcassets */; };
+		EEE5628A25133B1C00AA0FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE5628825133B1C00AA0FE8 /* LaunchScreen.storyboard */; };
+		EEE5628D25133B1C00AA0FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5628C25133B1C00AA0FE8 /* main.m */; };
+		EEE5629725133B1D00AA0FE8 /* CVTSquareInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5629625133B1D00AA0FE8 /* CVTSquareInputViewTests.m */; };
+		EEE562A225133B1D00AA0FE8 /* CVTSquareInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE562A125133B1D00AA0FE8 /* CVTSquareInputViewUITests.m */; };
+		EEE562B42513812B00AA0FE8 /* CVTCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE562B32513812A00AA0FE8 /* CVTCustomTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE5629325133B1D00AA0FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE5626F25133B1B00AA0FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE5627625133B1B00AA0FE8;
+			remoteInfo = CVTSquareInputView;
+		};
+		EEE5629E25133B1D00AA0FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE5626F25133B1B00AA0FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE5627625133B1B00AA0FE8;
+			remoteInfo = CVTSquareInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE5627725133B1B00AA0FE8 /* CVTSquareInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVTSquareInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE5627A25133B1B00AA0FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE5627B25133B1B00AA0FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEE5627D25133B1B00AA0FE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EEE5627E25133B1B00AA0FE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EEE5628025133B1B00AA0FE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEE5628125133B1B00AA0FE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEE5628425133B1B00AA0FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE5628625133B1C00AA0FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE5628925133B1C00AA0FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE5628B25133B1C00AA0FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE5628C25133B1C00AA0FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE5629225133B1D00AA0FE8 /* CVTSquareInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVTSquareInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE5629625133B1D00AA0FE8 /* CVTSquareInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVTSquareInputViewTests.m; sourceTree = "<group>"; };
+		EEE5629825133B1D00AA0FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE5629D25133B1D00AA0FE8 /* CVTSquareInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVTSquareInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE562A125133B1D00AA0FE8 /* CVTSquareInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVTSquareInputViewUITests.m; sourceTree = "<group>"; };
+		EEE562A325133B1D00AA0FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE562B22513812A00AA0FE8 /* CVTCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTCustomTextField.h; sourceTree = "<group>"; };
+		EEE562B32513812A00AA0FE8 /* CVTCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTCustomTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE5627425133B1B00AA0FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5628F25133B1D00AA0FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5629A25133B1D00AA0FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE5626E25133B1B00AA0FE8 = {
+			isa = PBXGroup;
+			children = (
+				EEE5627925133B1B00AA0FE8 /* CVTSquareInputView */,
+				EEE5629525133B1D00AA0FE8 /* CVTSquareInputViewTests */,
+				EEE562A025133B1D00AA0FE8 /* CVTSquareInputViewUITests */,
+				EEE5627825133B1B00AA0FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE5627825133B1B00AA0FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5627725133B1B00AA0FE8 /* CVTSquareInputView.app */,
+				EEE5629225133B1D00AA0FE8 /* CVTSquareInputViewTests.xctest */,
+				EEE5629D25133B1D00AA0FE8 /* CVTSquareInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE5627925133B1B00AA0FE8 /* CVTSquareInputView */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5627A25133B1B00AA0FE8 /* AppDelegate.h */,
+				EEE5627B25133B1B00AA0FE8 /* AppDelegate.m */,
+				EEE5627D25133B1B00AA0FE8 /* SceneDelegate.h */,
+				EEE5627E25133B1B00AA0FE8 /* SceneDelegate.m */,
+				EEE5628025133B1B00AA0FE8 /* ViewController.h */,
+				EEE5628125133B1B00AA0FE8 /* ViewController.m */,
+				EEE562B22513812A00AA0FE8 /* CVTCustomTextField.h */,
+				EEE562B32513812A00AA0FE8 /* CVTCustomTextField.m */,
+				EEE5628325133B1B00AA0FE8 /* Main.storyboard */,
+				EEE5628625133B1C00AA0FE8 /* Assets.xcassets */,
+				EEE5628825133B1C00AA0FE8 /* LaunchScreen.storyboard */,
+				EEE5628B25133B1C00AA0FE8 /* Info.plist */,
+				EEE5628C25133B1C00AA0FE8 /* main.m */,
+			);
+			path = CVTSquareInputView;
+			sourceTree = "<group>";
+		};
+		EEE5629525133B1D00AA0FE8 /* CVTSquareInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5629625133B1D00AA0FE8 /* CVTSquareInputViewTests.m */,
+				EEE5629825133B1D00AA0FE8 /* Info.plist */,
+			);
+			path = CVTSquareInputViewTests;
+			sourceTree = "<group>";
+		};
+		EEE562A025133B1D00AA0FE8 /* CVTSquareInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE562A125133B1D00AA0FE8 /* CVTSquareInputViewUITests.m */,
+				EEE562A325133B1D00AA0FE8 /* Info.plist */,
+			);
+			path = CVTSquareInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE5627625133B1B00AA0FE8 /* CVTSquareInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE562A625133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputView" */;
+			buildPhases = (
+				EEE5627325133B1B00AA0FE8 /* Sources */,
+				EEE5627425133B1B00AA0FE8 /* Frameworks */,
+				EEE5627525133B1B00AA0FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVTSquareInputView;
+			productName = CVTSquareInputView;
+			productReference = EEE5627725133B1B00AA0FE8 /* CVTSquareInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE5629125133B1D00AA0FE8 /* CVTSquareInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE562A925133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputViewTests" */;
+			buildPhases = (
+				EEE5628E25133B1D00AA0FE8 /* Sources */,
+				EEE5628F25133B1D00AA0FE8 /* Frameworks */,
+				EEE5629025133B1D00AA0FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE5629425133B1D00AA0FE8 /* PBXTargetDependency */,
+			);
+			name = CVTSquareInputViewTests;
+			productName = CVTSquareInputViewTests;
+			productReference = EEE5629225133B1D00AA0FE8 /* CVTSquareInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE5629C25133B1D00AA0FE8 /* CVTSquareInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE562AC25133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputViewUITests" */;
+			buildPhases = (
+				EEE5629925133B1D00AA0FE8 /* Sources */,
+				EEE5629A25133B1D00AA0FE8 /* Frameworks */,
+				EEE5629B25133B1D00AA0FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE5629F25133B1D00AA0FE8 /* PBXTargetDependency */,
+			);
+			name = CVTSquareInputViewUITests;
+			productName = CVTSquareInputViewUITests;
+			productReference = EEE5629D25133B1D00AA0FE8 /* CVTSquareInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE5626F25133B1B00AA0FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = cvte;
+				TargetAttributes = {
+					EEE5627625133B1B00AA0FE8 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					EEE5629125133B1D00AA0FE8 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = EEE5627625133B1B00AA0FE8;
+					};
+					EEE5629C25133B1D00AA0FE8 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = EEE5627625133B1B00AA0FE8;
+					};
+				};
+			};
+			buildConfigurationList = EEE5627225133B1B00AA0FE8 /* Build configuration list for PBXProject "CVTSquareInputView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE5626E25133B1B00AA0FE8;
+			productRefGroup = EEE5627825133B1B00AA0FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE5627625133B1B00AA0FE8 /* CVTSquareInputView */,
+				EEE5629125133B1D00AA0FE8 /* CVTSquareInputViewTests */,
+				EEE5629C25133B1D00AA0FE8 /* CVTSquareInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE5627525133B1B00AA0FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE5628A25133B1C00AA0FE8 /* LaunchScreen.storyboard in Resources */,
+				EEE5628725133B1C00AA0FE8 /* Assets.xcassets in Resources */,
+				EEE5628525133B1B00AA0FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5629025133B1D00AA0FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5629B25133B1D00AA0FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE5627325133B1B00AA0FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE5628225133B1B00AA0FE8 /* ViewController.m in Sources */,
+				EEE5627C25133B1B00AA0FE8 /* AppDelegate.m in Sources */,
+				EEE5628D25133B1C00AA0FE8 /* main.m in Sources */,
+				EEE5627F25133B1B00AA0FE8 /* SceneDelegate.m in Sources */,
+				EEE562B42513812B00AA0FE8 /* CVTCustomTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5628E25133B1D00AA0FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE5629725133B1D00AA0FE8 /* CVTSquareInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE5629925133B1D00AA0FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE562A225133B1D00AA0FE8 /* CVTSquareInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE5629425133B1D00AA0FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE5627625133B1B00AA0FE8 /* CVTSquareInputView */;
+			targetProxy = EEE5629325133B1D00AA0FE8 /* PBXContainerItemProxy */;
+		};
+		EEE5629F25133B1D00AA0FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE5627625133B1B00AA0FE8 /* CVTSquareInputView */;
+			targetProxy = EEE5629E25133B1D00AA0FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE5628325133B1B00AA0FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE5628425133B1B00AA0FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE5628825133B1C00AA0FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE5628925133B1C00AA0FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE562A425133B1D00AA0FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEE562A525133B1D00AA0FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE562A725133B1D00AA0FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE562A825133B1D00AA0FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE562AA25133B1D00AA0FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVTSquareInputView.app/CVTSquareInputView";
+			};
+			name = Debug;
+		};
+		EEE562AB25133B1D00AA0FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVTSquareInputView.app/CVTSquareInputView";
+			};
+			name = Release;
+		};
+		EEE562AD25133B1D00AA0FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CVTSquareInputView;
+			};
+			name = Debug;
+		};
+		EEE562AE25133B1D00AA0FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P76M9BE8DQ;
+				INFOPLIST_FILE = CVTSquareInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cvte.CVTSquareInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CVTSquareInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE5627225133B1B00AA0FE8 /* Build configuration list for PBXProject "CVTSquareInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE562A425133B1D00AA0FE8 /* Debug */,
+				EEE562A525133B1D00AA0FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE562A625133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE562A725133B1D00AA0FE8 /* Debug */,
+				EEE562A825133B1D00AA0FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE562A925133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE562AA25133B1D00AA0FE8 /* Debug */,
+				EEE562AB25133B1D00AA0FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE562AC25133B1D00AA0FE8 /* Build configuration list for PBXNativeTarget "CVTSquareInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE562AD25133B1D00AA0FE8 /* Debug */,
+				EEE562AE25133B1D00AA0FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE5626F25133B1B00AA0FE8 /* Project object */;
+}
